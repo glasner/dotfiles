@@ -1,0 +1,2 @@
+#compdef hack
+_files -W $PROJECTS -/

@@ -1,0 +1,6 @@
+# switch to directory in ~/code and open in Finder and Sublime
+# autocomplete handled by ./_hack
+
+cd $PROJECTS/$1
+open ./
+edit ./

@@ -9,6 +9,7 @@ fi
 alias pull='git pull'
 alias push='git push'
 alias gc='git add -A; git commit -m'
+alias gs='git status'
 
 # # The rest of my fun git aliases
 # alias gl='git pull --prune'

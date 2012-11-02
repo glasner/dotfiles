@@ -84,11 +84,14 @@ autoload colors && colors
 #   # set_prompt
 # }
 
+
 if [[ -n $SSH_CONNECTION ]]; then
-  export PS1='%m:> '
+  export PS1='%m:\w> '
 else
-  export PS1='> '
+  export PS1='[%2c]: '
 fi
+
+
 
 precmd () { 
 	print -Pn "\e]2;%~\a" # title bar prompt
