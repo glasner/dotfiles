@@ -1,4 +1,6 @@
-
+# let rvm see the right compiler
+# http://stackoverflow.com/questions/9561681/how-do-i-install-overcome-ruby-1-9-2-with-rvm-on-mac-osx-10-7-3-lion
+# export CC=/usr/bin/gcc-4.2
 
 # export LSCOLORS="exfxcxdxbxegedabagacad"
 # export CLICOLOR=true
