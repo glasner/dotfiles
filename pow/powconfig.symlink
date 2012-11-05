@@ -1,0 +1,2 @@
+# let POW know about rbenv
+export PATH=/usr/local/bin:/usr/local/opt/rbenv/shims:$PATH
