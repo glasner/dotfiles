@@ -14,7 +14,7 @@ _zeus() {
             compadd "$@" model controller migration
         ;;
             rspec)
-            _files -g './spec/**/%p_spec.rb'
+            _files -g './spec/**/*_spec.rb'
         ;;
             rake)
             # ripped from ./_rake to complete rake tasks
