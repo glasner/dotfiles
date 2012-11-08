@@ -1,0 +1,31 @@
+#compdef zeus
+
+_zeus() {
+    local start state
+    _arguments '1: :->command'
+
+    case $state in
+    command)
+        _arguments "1:Commands:(start console rspec generate rake runner)"
+    ;;
+    *)
+        case $words[2] in
+            generate)
+            compadd "$@" model controller migration
+        ;;
+            rake)
+            # ripped from ./_rake to complete rake tasks
+            if [ -f Rakefile ]; then
+              recent=`last_modified .rake_tasks~ Rakefile **/*.rake`
+              if [[ $recent != '.rake_tasks~' ]]; then
+                rake --silent --tasks | cut -d " " -f 2 > .rake_tasks~
+              fi
+              compadd `cat .rake_tasks~`
+            fi
+        ;;
+
+        esac
+    esac
+}
+
+
