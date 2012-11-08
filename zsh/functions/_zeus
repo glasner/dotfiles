@@ -13,6 +13,9 @@ _zeus() {
             generate)
             compadd "$@" model controller migration
         ;;
+            rspec)
+            _files -g './spec/**/%p_spec.rb'
+        ;;
             rake)
             # ripped from ./_rake to complete rake tasks
             if [ -f Rakefile ]; then
@@ -27,5 +30,7 @@ _zeus() {
         esac
     esac
 }
+
+_files -g '*.apk'
 
 
