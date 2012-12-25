@@ -4,6 +4,7 @@
 
 [hub]
 	protocol = https
+        user = glasner
 [user]
         name = Jordan Glasner
         email = glasner@gmail.com
@@ -22,7 +23,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = edit
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -33,5 +34,3 @@
         autocorrect = 1
 [push]
 	default = simple
-[github]
-	user = glasner
