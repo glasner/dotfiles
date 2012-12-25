@@ -6,5 +6,5 @@ then
   alias git=$hub_path
 fi
 
-export HUB_CONFIG='~/.hub'
+# export HUB_CONFIG='~/.hub'
 
