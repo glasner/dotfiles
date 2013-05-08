@@ -6,7 +6,7 @@
 	protocol = https
         user = glasner
 [user]
-        name = Jordan Glasner
+	name = Jordan Glasner
         email = glasner@gmail.com
 [credential]
         helper = osxkeychain
@@ -23,7 +23,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = edit
+	editor = subl -w
 [apply]
         whitespace = nowarn
 [mergetool]
