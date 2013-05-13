@@ -1,6 +1,6 @@
 alias pull='git pull'
 alias push='git push'
-alias gc='git commit -a -m'
+alias gc='git commit'
 alias add='git add'
 alias gs='git status'
 alias gb='git branch'
