@@ -1,13 +1,15 @@
 alias g='git'
 alias pull='git pull'
 alias push='git push'
+alias fetch='git fetch'
+alias merge='git merge'
 alias gc='git commit'
 alias ga='git add'
 alias gs='git status'
 alias gb='git branch'
 alias co='git checkout'
 alias gr='git rebase'
-alias grc='git rebase --continue'
+alias grc='git add .; git rebase --continue'
 
 # # The rest of my fun git aliases
 # alias gl='git pull --prune'
