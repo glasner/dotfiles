@@ -1,6 +1,6 @@
-alias rr='rails runner'
-alias rg='rails generate'
-alias rc='rails console'
+alias rr='spring rails runner'
+alias rg='spring rails generate'
+alias rc='spring rails console'
 
 # Bundler
 alias b='bundle'
