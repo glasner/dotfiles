@@ -6,4 +6,4 @@ alias rc='spring rails console'
 alias b='bundle'
 alias be='bundle exec'
 
-alias wtf='tail -100 log/development.log'
+alias wtf='tail -1500 log/development.log'

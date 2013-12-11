@@ -10,3 +10,4 @@ then
 fi
 
 alias cl='clear'
+alias e='edit'

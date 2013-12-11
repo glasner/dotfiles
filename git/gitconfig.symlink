@@ -12,7 +12,7 @@
         helper = osxkeychain
 [alias]
         co = checkout
-        fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
+        fixup = !sh -c 'REV=$(git rev-parse $1) && git add . && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
 [color]
         diff = auto
         status = auto
