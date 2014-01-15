@@ -1,4 +1,4 @@
-alias rr='spring rails runner'
+alias rr='spring rspec'
 alias rg='spring rails generate'
 alias rc='spring rails console'
 
