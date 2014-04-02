@@ -10,7 +10,8 @@ alias gb='git branch'
 alias co='git checkout'
 alias gr='git rebase'
 alias grc='git add .; git rebase --continue'
-alias f='git fixup'
+alias fix='git fixup'
+alias pr='git pr'
 
 # # The rest of my fun git aliases
 # alias gl='git pull --prune'
