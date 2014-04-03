@@ -12,6 +12,7 @@ alias gr='git rebase'
 alias grc='git add .; git rebase --continue'
 alias fix='git fixup'
 alias pr='git pr'
+alias wip='git add -A && git commit -m wip'
 
 # # The rest of my fun git aliases
 # alias gl='git pull --prune'
