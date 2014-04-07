@@ -1,0 +1,5 @@
+bind main i !<git rebase -i %(commit)~1
+bind main f !<git fixup %(commit)
+bind main F !<git Fixup %(commit)
+bind main R !<git reset %(commit)
+
