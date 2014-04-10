@@ -11,6 +11,7 @@
 [credential]
         helper = osxkeychain
 [alias]
+        edit = !sh -c 'edit $1' -
         fixup = !sh -c 'REV=$(git rev-parse $1) && git add . && git commit --fixup $@' -
         Fixup = !sh -c 'REV=$(git rev-parse $1) && git add . && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
         pr = !sh -c 'BRANCH=$(git symbolic-ref -q --short HEAD) && open https://github.com/mojotech/Groove/compare/$0...$BRANCH'
