@@ -16,6 +16,7 @@
         Fixup = !sh -c 'REV=$(git rev-parse $1) && git add . && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
         pr = !sh -c 'BRANCH=$(git symbolic-ref -q --short HEAD) && open https://github.com/mojotech/Groove/compare/$0...$BRANCH'
         cp = cherry-pick
+        recent = for-each-ref --sort=-committerdate refs/heads/ --count 10
 [color]
         diff = auto
         status = auto
