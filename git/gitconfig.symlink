@@ -17,6 +17,7 @@
         pr = !sh -c 'BRANCH=$(git symbolic-ref -q --short HEAD) && open https://github.com/mojotech/Groove/compare/$0...$BRANCH'
         cp = cherry-pick
         recent = for-each-ref --sort=-committerdate refs/heads/ --count 10
+        undo = reset head^
 [color]
         diff = auto
         status = auto
