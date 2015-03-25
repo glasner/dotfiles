@@ -1,4 +1,0 @@
-# Shortcut for deploying to EngineYard w/ Notification
-# Ex: stage jg/feature ck/feature amp/feature
-
-ey deploy -e $1 -r origin/staging && terminal-notifier -title '$1 Deployed' -message 'Click to login' -open 'http://supportguy.staging.groovehq.com'
