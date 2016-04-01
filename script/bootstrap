@@ -7,3 +7,6 @@
 
 # Run the install (I'd like to pull this out of rake, eventually)
 rake install
+
+# symlink sublime
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
